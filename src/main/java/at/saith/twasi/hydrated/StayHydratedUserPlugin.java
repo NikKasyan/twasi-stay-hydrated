@@ -17,7 +17,7 @@ public class StayHydratedUserPlugin extends TwasiUserPlugin {
     public void onEnable(TwasiEnableEvent e) {
         TimerService service = ServiceRegistry.get(TimerService.class);
         try {
-            service.registerTimer(this.getTwasiInterface(), "!hydrated", 10);
+            service.registerTimer(this.getTwasiInterface(), "!hydrated", 10*60);
         } catch (Exception ex) {
             ex.printStackTrace();
         }
