@@ -40,6 +40,11 @@ public class StayHydratedCommand extends TwasiPluginCommand {
         return "twasi.hydrated.mod.*";
     }
 
+    @Override
+    public boolean allowsTimer() {
+        return true;
+    }
+
     public String getCommandName() {
         return "hydrated";
     }
