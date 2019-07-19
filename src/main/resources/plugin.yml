@@ -1,0 +1,7 @@
+name: "StayHydrated"
+version: 1.0
+main: at.saith.twasi.hydrated.StayHydratedPlugin
+dependencies:
+  - "Timed Messages"
+commands:
+  - hydrated

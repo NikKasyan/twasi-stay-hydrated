@@ -1,0 +1,2 @@
+twasi.hydration = Du solltest bis jetzt {hydrationlevel}ml Wasser getrunken haben, damit du optimal hydriert bist.
+twasi.error.nostream = Das StayHydrated Plugin funktioniert nur wenn du streamst.
